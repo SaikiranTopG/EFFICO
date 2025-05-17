@@ -1,0 +1,139 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  body, html {
+    height: 100%;
+    background-color: #010105;
+    color: #ffffff;
+  }
+  .container {
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .left-panel {
+    flex: 1;
+    background-color: #010105;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  .login-box {
+    gap: 5px;
+    width: 100%;
+    max-width: 400px;
+  }
+  .login-box h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .login-box p {
+    color: #aaa;
+    margin-bottom: 20px;
+  }
+  .login-box label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .login-box input {
+    width: 100%;
+    padding: 10px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  .login-box input::placeholder {
+    color: #888;
+  }
+  .login-box input:focus {
+    border-bottom: 1px solid #6c63ff;
+  }
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 0.95rem;
+  }
+  .options-label {
+    display: inline-flex;
+    font-size: 11px;
+    align-items: center;
+    gap: 8px;
+    color: #63564f;
+    cursor: pointer;
+  }
+  .options-label input[type="checkbox"] {
+    accent-color:#63564f;
+    width: 14px;
+    height: 10px;
+  }
+  .options-link {
+    color:#63564f;
+    font-size: 11px;  
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .options-link:hover {
+    color:#63564f;
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a1a27;
+    color:#cfbfa8;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #cfbfa8;
+    color: #1a1a1a;
+  }
+  .signup {
+    text-align: center;
+    margin-top: 10px;
+    color: #bbb;
+  }
+  .signup a {
+    color: #cfbfa8;
+    text-decoration: none;
+  }
+  .signup a:hover {
+    text-decoration: underline;
+  }
+  .right-panel {
+    flex: 1;
+    background-color: hsl(240, 20%, 13%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+  }
+  .overlay-text {
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+  }
+  .overlay-text h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: 10px;
+  }
+  .overlay-text p {
+    color: #ccc;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
