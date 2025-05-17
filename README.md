@@ -18,7 +18,7 @@ Effico is a frontend employee task management dashboard built using React. It pr
 ## 📁 Folder Structure
 
 ```
-my-react-app/
+EFFICO/
 ├── public/
 ├── src/
 │   ├── components/
